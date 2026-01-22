@@ -1,0 +1,23 @@
+# Build output
+*.o
+*.obj
+*.exe
+!LanManager_*_Setup.exe
+*.dll
+*.pdb
+
+# Qt generated
+moc_*
+ui_*
+qrc_*
+Makefile*
+*.Debug
+*.Release
+debug/
+release/
+.qmake.stash
+
+# IDE
+.vs/
+*.user
+*.suo
